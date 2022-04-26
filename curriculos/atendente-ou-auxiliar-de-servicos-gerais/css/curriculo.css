@@ -1,0 +1,38 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+h1 {
+	font-size: 22pt;
+	text-align: center;
+}
+
+h2 {
+	font-size: 16pt;
+}
+
+p, em, span, a {
+	font-size: 13pt;
+}
+
+em {
+	font-weight: bold;
+}
+
+a {
+	color: #273;
+	text-decoration: none;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.mg-l { /*margin-left*/
+	margin-left: 5vw;
+}
