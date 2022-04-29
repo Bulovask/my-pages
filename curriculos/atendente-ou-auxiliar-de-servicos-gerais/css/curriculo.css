@@ -4,7 +4,15 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
+	box-sizing: border-box;
+	padding: 0.33ch 0.75ch;
 	margin: 0;
+	font-family: monospace;
+	background-color: #eee;
+	border-radius: 0 10px 25px 0;
+	border: 1px solid #999;
+	border-left: none;
+	margin-right: 1ch;
 }
 
 h1 {
@@ -16,8 +24,10 @@ h2 {
 	font-size: 16pt;
 }
 
-p, em, span, a {
+p, em, span, a, li {
 	font-size: 13pt;
+	font-family: serif;
+	margin: 0.5ch;
 }
 
 em {
@@ -29,10 +39,22 @@ a {
 	text-decoration: none;
 }
 
+ul {
+	margin: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+li:before {
+	content: "✔ ";
+}
+
 .text-center {
 	text-align: center;
 }
 
-.mg-l { /*margin-left*/
-	margin-left: 5vw;
+.pd-l-childs :is(*){ /*padding-left*/
+	padding-left: 5vw;
 }
